@@ -7,7 +7,7 @@ function pedirMotos() {
 
     console.log("entro");
     $.ajax({
-        url: "http://localhost:8080/api/Motorbike/all",
+        url: "http://132.226.38.163:8081/api/Motorbike/all",
         type: "GET",
         datatype: "JSON",
         contentType: "application/json",

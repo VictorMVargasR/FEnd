@@ -24,7 +24,7 @@ function guardarClientes() {
     let estado;
 
     $.ajax({
-        url: "http://localhost:8080/api/Client/all",
+        url: "http://132.226.38.163:8081/api/Client/all",
         type: "GET",
         datatype: "JSON",
         contentType: "application/json",
@@ -96,7 +96,7 @@ function registrarCliente(nombreCliente, emailCliente, passwordCliente, edadClie
 
     if (nombreCliente !== "" && emailCliente !== "" && nombreCliente !== "") {
         $.ajax({
-            url: "http://localhost:8080/api/Client/save",
+            url: "http://132.226.38.163:8081/api/Client/save",
             type: "POST",
             datatype: "JSON",
             data: dataToSend,

@@ -5,7 +5,7 @@
 
 
 $.ajax({
-    url: "http://localhost:8080/api/Motorbike/" + localStorage.getItem("idMoto"),
+    url: "http://132.226.38.163:8081/api/Motorbike/" + localStorage.getItem("idMoto"),
     type: "GET",
     datatype: "JSON",
     contentType: "application/json",
