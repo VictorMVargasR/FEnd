@@ -101,7 +101,7 @@ function guardarElementoCategory(){
         },
         error: function(jqXHR, textStatus, errorThrown) {
               window.location.reload();
-            alert("La Categoria no se Guardo Correctamente");
+            alert("La Categoria no se Guardo Correctamente o no se puede repetir categorias");
         }
     });
 }

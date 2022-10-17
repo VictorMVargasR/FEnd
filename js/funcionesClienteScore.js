@@ -23,6 +23,10 @@ $.ajax({
     }
 });
 
+$.get("http://132.226.38.163:8081/api/user/user", function (data) {
+    console.log(data.name);
+});
+
 function pintarReservas(Reserva) {
 
     $("#tablaBody").empty();

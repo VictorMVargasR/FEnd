@@ -107,7 +107,7 @@ function guardarElementoAdmin(){
         
         error: function(jqXHR, textStatus, errorThrown) {
               window.location.reload();
-            alert("El Administrador no se guardo correctamente");
+            alert("El Administrador no se guardo correctamente o email registrado con anterioridad");
     
     
         }

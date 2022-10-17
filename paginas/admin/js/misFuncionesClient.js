@@ -103,7 +103,7 @@ function guardarElementoClient(){
         },
         error: function(jqXHR, textStatus, errorThrown) {
               window.location.reload();
-            alert("Cliente no se guardo correctamente");
+            alert("Cliente no se guardo correctamente o email registrado con anterioridad");
         }
         });
 }
