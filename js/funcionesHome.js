@@ -40,7 +40,7 @@
 //
 //    Menu += '<ul class="navbar-nav me-auto mb-2 mb-lg-0">';
 //    Menu += '<li class="nav-item">';
-//    Menu += '<a class="nav-link" aria-current="page" href="../admin/admin.html">Administradores</a>';
+//    Menu += '<a class="nav-link" aria-current="page" href="../admin/Admin.html"">Administradores</a>';
 //    Menu += '</li>';
 //    Menu += '</ul>';
 //
