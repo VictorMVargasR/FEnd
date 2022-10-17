@@ -34,9 +34,9 @@ const main = () =>{
 }; document.addEventListener('DOMContentLoaded', main);
 
 //Funcion para traer el usuario de git
-$.get("api/user/user", function (data) {
+$.get("http://132.226.38.163:8081/api/user/user", function (data) {
     $("#user").html(data.name);
-    $(".unauthenticated").show();
+    $(".unauthenticated").hide();
     $(".authenticated").show();
 });
 var logout = function () {
